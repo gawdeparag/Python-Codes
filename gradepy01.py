@@ -22,6 +22,18 @@ def grade(m1, m2, m3, m4, m5):
             avg = avg + 1
         print("Your average is: ", avg)
         print("Result: First Class")
+    elif avg >= 49 and avg <=58:
+        if avg == 49:
+            avg = avg + 1
+        print("Your average is: ", avg)
+        print("Result: Second Class")
+    elif avg >= 39 and avg <= 48:
+        if avg == 39:
+            avg = avg + 1
+        print("Your Average is: ", avg)
+        print("Result: Third Class")
+    elif avg > 100:
+        print("Invalid operation! Try again!")
     else:
         print("You have failed!")
 
