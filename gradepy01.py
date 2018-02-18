@@ -17,8 +17,11 @@ def grade(m1, m2, m3, m4, m5):
             avg = avg + 1
         print("Your average is: ", avg)
         print("Result: Distinction")
-    elif condition:
-        
+    elif avg >= 59 and avg <= 73:
+        if avg == 59:
+            avg = avg + 1
+        print("Your average is: ", avg)
+        print("Result: First Class")
     else:
         print("You have failed!")
 
