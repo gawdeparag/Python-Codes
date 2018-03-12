@@ -2,6 +2,7 @@ class Employee:
     #class variable
     dept = 'Sales'
     base_s = 2000
+
     def __init__(self, name, salary):
         self.name = name
         self.salary = salary
