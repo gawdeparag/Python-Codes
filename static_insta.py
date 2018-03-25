@@ -31,9 +31,3 @@ print(b.name)
 print(b.dept)
 print(b.incr_salary(b.salary))
 #Ani ithe 'base_s = 8000' hoil mhanjech '(base_s = 4000) * 2'
-                    
-
-
-
-
-
