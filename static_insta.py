@@ -13,7 +13,6 @@ class Employee:
         return Employee.base_s
         
         
-
     def incr_salary(self, salary):
         salary = self.salary * 10 + Employee.base_salary()
         return salary
