@@ -6,7 +6,7 @@ def armstrong(n):
         sum = sum + remainder ** 3
         temp = temp / 10
 
-    if n == sum:
+    if sum == n:
         print("It's an Armstrong number!")
     else:
         print("It's not an Armstrong number!")
