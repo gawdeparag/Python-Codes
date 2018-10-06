@@ -1,13 +1,13 @@
-matrix01 = [[1, 2, 3],
+inputMatrix = [[1, 2, 3],
             [4, 5, 6]]
 
-matrixtrans = [[0, 0], 
+matrixTrans = [[0, 0], 
                 [0, 0],
                 [0, 0]]
 
 for i in range(0, 3):
     for j in range(0, 2):
-        matrixtrans[i][j] = matrix01[j][i]
+        matrixTrans[i][j] = inputMatrix[j][i]
 
-for trans in matrixtrans:
+for trans in matrixTrans:
    print(trans) 
