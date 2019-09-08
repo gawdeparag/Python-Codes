@@ -9,5 +9,5 @@ print (dic3.items())
 dic1.clear()
 # printing cleared dictionary
 print ("The contents of deleted dictionary is : ")
-print (dic1.items())
+print (dic3.items())
 
