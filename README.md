@@ -1,2 +1,2 @@
-# Some-Python-Shit
-## Just Some python codes
+# Python-Codes
+## Just Some solutions, coded in Python
